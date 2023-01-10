@@ -18,6 +18,16 @@
 
     # always loaded
     'data': [
+        #securtiy
+        "security/ir.model.access.csv",
+
+        #views
+        "views/student.xml",
+        
+        
+        #menus
+        "views/menu.xml",
+
 
     ],
     # only loaded in demonstration mode

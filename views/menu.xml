@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <menuitem name="School" id="School.school_menu_root"/>
+        <menuitem name="Student" id="School.student_list"
+                  parent="School.school_menu_root"
+                  action="open_view_student_tree"
+                  />
+    </data>
+</odoo>
